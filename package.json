@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "start": "electron main.js"
+    },
+    "dependencies": {
+        "mssql": "^10.0.2"
+    }
+}

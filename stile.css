@@ -1,0 +1,58 @@
+#user, #adm {
+    background-color: aqua;
+    border-radius: 20px;
+    border: solid;
+    width: 200px;
+    height: auto; /* Alterado para 'auto' para que a altura seja determinada pelo conteúdo */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    cursor: pointer;
+    display: block; /* Alterado para 'block' para que os botões fiquem um abaixo do outro */
+    margin-bottom: 10px; /* Adiciona uma margem entre os botões */
+}
+
+.userRobo {
+width: 15%;
+margin-top: 120px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.login{
+    display: none;
+}
+
+.login {
+    width: 300px; /* largura do formulário */
+    margin: 0 auto; /* centraliza horizontalmente */
+    padding: 20px;
+    border: 1px solid #ccc; /* borda cinza */
+    border-radius: 5px; /* cantos arredondados */
+    background-color: #f9f9f9; /* fundo cinza claro */
+}
+
+.login h2 {
+    margin-top: 0; /* remover a margem superior do título */
+    font-size: 24px; /* tamanho da fonte do título */
+}
+
+.login form {
+    display: flex; /* exibir os itens em uma linha */
+    flex-direction: column; /* organizar os itens em uma coluna */
+}
+
+.login form div {
+    margin-bottom: 10px; /* espaçamento entre os elementos */
+}
+
+.login form label {
+    font-weight: bold; /* tornar o texto do rótulo em negrito */
+}
+
+.login form input[type="text"],
+.login form input[type="password"] {
+    width: 100%; /* largura total do input */
+    padding: 8px; /* preenchimento interno */
+    border: 1px solid #ccc; /* borda cinza */
+    border-radius: 3px; /* cantos arredondados */
+}
